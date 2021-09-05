@@ -1,3 +1,3 @@
  # kokoa clone 2021!
 
-  css got kkk zzz
+ i can say kokoa clone is very easy
