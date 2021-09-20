@@ -1,0 +1,141 @@
+.search-menu {
+
+    position: fixed;
+    top:100px;
+    width: 100%;
+    height: 110px;
+    padding:20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:rgba(83, 48, 22, 0.795);
+}
+
+.search-menu div{
+    width:50px;
+}
+.search-menu p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.line2 {
+    margin-top: 13px;
+}
+
+.search-middle {
+    box-sizing: border-box;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(224, 224, 224);
+    border-width: 1px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 200px;
+    position: fixed;
+    top:220px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:rgba(119, 98, 71, 0.404) ;
+    font-size:13px;    
+}
+
+.search-middle-name{
+    position:absolute;
+    left:3%;
+    top:5%;
+}
+
+
+.search-open-chat {
+    border-color: rgb(224, 224, 224);
+    border-width: 1px;
+    border-bottom-style: solid;
+    box-sizing: border-box;
+    width: 90%;
+    height: 140px;
+    position: fixed;
+    top: 420px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 13px;
+    color:rgba(119, 98, 71, 0.404) ;
+}
+
+.search-open-chat div:first-child{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+}
+
+
+.search-open-chat div:last-child{
+    box-sizing: border-box;
+
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-open-chat img{
+    width:80px;
+    height: 80px;
+    border-radius: 5px;
+    border-color: rgba(126, 72, 11, 0.226);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.search-open-chat div:last-child>div {
+    box-sizing: border-box;
+
+    display: inline;
+    justify-content: left;
+    text-align:left;
+    margin-top:30px;
+    font-size: 12px;
+}
+
+
+.search-open-chat div:last-child>div p:first-child{
+    color:black;
+    font-weight: 800;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+
+.open-chat-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(94, 48, 15);
+    border-radius: 50%;
+    margin-top: 4px;
+    color:yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.open-chat-small-box {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top:97px;
+    padding-bottom: 0px;
+    left:37px;
+}
+.open-chat-small-box span:last-child{
+    color:rgb(241, 151, 151);
+}

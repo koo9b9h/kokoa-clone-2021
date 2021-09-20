@@ -1,12 +1,16 @@
 
 .status-bar {
+    position: fixed;
+    top:0%;
     display: flex;
     justify-content: center;
     background-color: rgba(80, 35, 4, 0.2);
+    width: 100%;
    }
    
    .status-bar__column {
-       width: 33%
+       width: 33%;
+       display: flex;
    }
    
    .status-bar__column:first-child span {

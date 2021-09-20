@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color:rgb(236, 236, 236);
+    width: 800px;
+    height: 800px;
+    position: relative;
+    display: flex;
+}
+.screen {
+    width: 300px;
+    height: 700px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    box-shadow: 0 8px 8px dimgray;
+}
+/*------------------------status-bar --------------------------------*/
+input{
+    width: 0%;
+    height: 0%;
+    border-width: 0px;
+    padding: 0%;
+}
+input:focus{
+    border-color: rgb(1, 1, 104);
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 150px;
+    height: 15px;
+    margin: 0px;
+    padding:0px;
+}
+
+.a:link{
+    text-decoration: none;
+    color:rgb(85, 85, 85);
+}
+a:visited{
+    text-decoration: none;
+    color:rgb(85, 85, 85);
+}
+
+.status-bar {
+    width: 260px; 
+    height: 20px;
+    position: absolute;
+    left:20px;
+    top:30px;
+    color: rgb(85, 85, 85);
+    text-align: right;
+}
+.fa-arrow-left{
+    color:rgb(85, 85, 85);
+    position: absolute;
+    left: 1%;
+    top:2px;
+}
+.sb{
+    color:rgb(85, 85, 85);
+}
+
+
+/*------------------------1번째 화면 --------------------------------*/
+.first {
+    left:40px;
+}
+.first-main{
+    width: 250px;
+    height: 270px;
+    position: absolute;
+    left:23px;
+    top:50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-main img {
+    width: 70px;
+    height: 70px;
+    margin-top: 10%;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(153, 153, 153, 0.61);
+}
+.first-main-name {
+    width: 180px;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 13%;
+    font-size:25px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color:rgb(85, 85, 85);
+    font-weight: 800;
+    
+}
+.first-main-name p {
+    margin: 7px;
+    font-size:15px;
+    font-weight: 400;
+    color:lightslategrey;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+}
+
+.first-main-menu {
+    width: 220px;
+    height: 40px;
+    margin-top: 12%;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-main-menu div{
+    border-style: solid;
+    border-radius: 30px;
+    border-color: inherit;
+    border-color:whitesmoke;
+    color:rgb(248, 91, 91);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px 1px rgb(53, 53, 53);
+    margin-right: 5px;
+    margin-left:5px ;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.first-main-menu div p {
+    font-size:13px;
+    font-weight: 600;
+    color:rgb(85, 85, 85);
+    word-spacing: 1px;
+    letter-spacing: 0px;
+    margin-left: 2px;
+}
+
+.first-list{
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    left:17px;
+    top: 47%;
+}
+
+.first-list>div{
+    width: 100%;
+    height: 21%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.first-list>div img{
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0.5px 10px 0.5px rgb(202, 202, 202);
+}
+
+.first-list>div>div {
+    width: 188px;
+    height: 40px;
+    margin-left: 10px;
+    font-size:15px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color:lightslategrey;
+    font-weight: 600;
+}
+.first-list>div>div>p {
+    margin:0px;
+    font-size:20px;
+    font-weight: 800;
+    color:rgb(85, 85, 85);
+}
+
+.first-list-plaing {
+     border-radius: 5px;
+     box-shadow: 0px 0.5px 10px 0.5px rgb(202, 202, 202);
+}
+
+.first-play {
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    height: 60px;
+    position: absolute;
+    left:13px;
+    bottom: 1%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 5px 1px rgb(255, 156, 156);
+}
+
+.first-play div {
+    width: 155px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    font-size:15px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color:lightslategrey;
+    font-weight: 600;
+}
+
+.first-play div p {
+    margin:0px;
+    font-size:18px;
+    font-weight: 800;
+    color:rgb(85, 85, 85);
+}
+
+.first-play-i{
+    margin:0px 5px;
+}
+
+
+/*------------------------2번째 화면 --------------------------------*/
+.second {
+    left: 430px;
+}
+
+.second-name{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top:7%;
+    left: 17%;
+    text-align: center;
+    font-size:23px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color:rgb(70, 70, 70);
+    font-weight: 800;
+}
+
+.second-name p {
+    margin: 0px;
+    font-size:15px;
+    font-weight: 400;
+    color:lightslategrey;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+}
+
+.second-img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    top:16%;
+    left: 17%;
+    box-shadow: 0px 20px 20px rgb(194, 182, 182);
+}
+
+.second-lyrics {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top:52%;
+    left: 17%;
+    text-align: center;
+    font-size:17px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+    color:rgb(255, 156, 156);
+    font-weight: 800;
+}
+.second-lyrics p {
+    margin: 10px;
+    font-size:15px;
+    font-weight: 400;
+    color:lightslategrey;
+    word-spacing: 1px;
+    letter-spacing: -1px;
+}
+
+.second-time {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    top:64%;
+    left:15px;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(194, 192, 192);
+    font-size: 10px;
+}
+.second-time p {
+    margin: 0px;
+}
+
+.second-time-bar {
+    position: absolute;
+    width: 280px;
+    height: 5px;
+    top:66%;
+    left:12px;
+    display: flex;
+    
+}
+
+.second-time-bar-a {
+    width: 38px;
+    height: 1px;
+    background-color: rgb(255, 156, 156);
+    border-color: rgb(255, 156, 156);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.second-time-bar-circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    left: 38px;
+    margin: 0px;
+    bottom:0.09mm;
+}
+
+.second-time-bar-b{
+    width: 230px;
+    height: 1px;
+    background-color: rgb(218, 218, 218);
+    border-color: rgb(218, 218, 218);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+
+.second-icon{
+    position: absolute;
+    width: 280px;
+    height: 110px;
+    left:10px;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size:25px;
+    color:rgb(70, 70, 70);
+}
+
+.second-icon-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(255, 156, 156) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-icon-circle i {
+    margin-left:5px;
+    color:whitesmoke;
+}
+
+.ad{
+    position: absolute;
+    width: 280px;
+    height: 90px;
+    bottom:1%;
+    left:10px;
+    text-align: left;
+}
+.ad img {
+    width: 280px;
+    height: 90px;
+    margin-top: 10px;
+}
+.ad i {
+    position: absolute;
+    top:30%;
+    left:3%;
+    font-size: 5px;
+}
+
+

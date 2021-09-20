@@ -1,0 +1,23 @@
+
+.now-status {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 20px; 
+    align-items: center;
+    box-sizing: border-box;
+    color:rgb(99, 51, 11)
+}
+.now-status span{
+    font-weight: 600;
+    font-size: 25px;
+    margin-right: 50%;
+
+}
+.now-status a{
+    color:inherit;
+    text-decoration: inherit;
+}

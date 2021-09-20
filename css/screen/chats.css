@@ -1,0 +1,41 @@
+.chats {
+    position: fixed;
+    top:80px;
+}
+.chats-kokoabeen img {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: rgba(78, 6, 6, 0.199);
+    border-width: 1px;
+    margin-right: 10px;
+}
+.chats-kokoabeen div p{
+    padding-bottom: 5px ;
+}
+
+.chats-kokoabeen-time {
+    position: fixed;
+    top:95px;
+    left:85%;
+ 
+}
+.chats-kokoabeen-time div:last-child {
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-top:10px ;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13px;
+}
+
+.chats a {
+    text-decoration: none;
+    color:inherit;
+}

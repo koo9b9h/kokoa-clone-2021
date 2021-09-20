@@ -1,0 +1,101 @@
+.fa-id-badge {
+    position: absolute;
+    left:450px;
+    font-size: 30px;
+    color:rgba(83, 48, 22, 0.795);
+}
+.more-menu {
+    position: fixed;
+    top: 160px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 110px;
+    padding:0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    color:rgba(83, 48, 22, 0.795);
+}
+
+.more-menu div{
+    width:50px;
+}
+.more-menu p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.more-pro{
+    position: fixed;
+    top:80px;
+}
+.more-pro img {
+    width: 50px;
+    height: 50px;
+    border-color: rgba(78, 6, 6, 0.199);
+    border-width: 1px;
+    margin-right: 10px;
+    padding: 0px;
+}
+.more-prop div p{
+    padding-bottom: 5px ;
+}
+
+
+
+.menu2 {
+    top:300px;
+    border-bottom-width: 1px;
+    border-bottom-style:solid ;
+    border-bottom-color:rgba(78, 6, 6, 0.199);
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.more-game {
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 140px;
+    position: fixed;
+    top: 450px;
+
+
+}
+
+.more-game img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgba(78, 6, 6, 0.199);
+    border-width: 1px;
+
+}
+
+.more-game p {
+margin-top: 10px;
+font-size: 12px;
+font-weight: 600;
+}
+
+.more-game div {
+    box-sizing: border-box;
+    margin:20px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: rgba(83, 48, 22, 0.795);
+}
+
+.more-game span {
+    color: rgba(83, 48, 22, 0.795);
+    font-weight: 600;
+}

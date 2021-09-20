@@ -1,0 +1,26 @@
+.pro{
+    width: 100%;
+    height: 60px;
+    padding-left:20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.pro img {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    padding-right:5px;
+}
+
+.pro p{
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+.pro div div {
+    font-size: 12px;
+    color: rgba(80, 56, 39, 0.5);
+    font-weight: 600;
+}
